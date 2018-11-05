@@ -1,0 +1,815 @@
+body, h2{
+    margin:0;
+    padding:0;
+}
+#uno{
+	background:url(../images/1.png) center no-repeat fixed;
+    background-size:cover;
+    width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+
+/*segundo paralax*/
+
+
+#dos{
+	background:url(../images/2.png) center no-repeat fixed;
+    background-size:cover;
+	height: 314px;
+    width: 1265px;
+	margin: 0 auto;
+	padding: 0;
+}
+  
+
+
+/*tercer paralax*/
+
+#tres{
+	background:url(../images/3.png) center no-repeat fixed;
+    background-size:cover;
+	height: 635px;
+    width: 1265px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure {
+	margin-top: -630px;
+    margin-left: 133px;
+}
+
+    figure img {
+	width: 40px;
+}
+
+
+
+    #imagen3 img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagen3 img:hover{
+	width: 91.6%;
+}
+    
+   /*caja de van gogh*/
+
+
+
+section
+{
+    width: 1000px;
+    height: 625px;
+    background: url(../images/vangogh.jpg);
+    background-size: contain;
+    border: 5px solid black;
+    margin: 8em;
+}
+
+@media screen
+{
+   
+    section#divisa{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transition: background 1s;
+    }
+
+
+#divisa img
+{
+    width: 5px;
+    height: 625px;
+    transition: width, 1s;
+}
+
+#divisa img:hover
+{
+    width: 100%;
+}
+    
+/*cuarto paralax*/
+
+#cuatro{
+	background:url(../images/4.png) center no-repeat fixed;
+    background-size:cover;
+    width: 1265px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure66 {
+	margin-top: 0px;
+    margin-left: 0px;
+}
+
+    figure66 iframe {
+    height: 300px;
+	width: 3px;
+}
+
+
+
+    #imagen66 iframe{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagen66 iframe:hover{
+	width: 60%;
+}
+     
+/*cinco paralax*/
+
+#cinco{
+	background:url(../images/6.png) 0 0 no-repeat fixed;
+    background-size:cover;
+    width: 1265px;
+	height: 711px;
+	margin: 0 auto;
+	padding: 0;
+}
+     
+    
+    /*seis paralax*/
+
+#seis{
+	background:url(../images/5.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 711px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*siete paralax*/
+
+#siete{
+	background:url(../images/3.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 480px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure1 {
+    margin-left: 133px;
+    margin-top: 100px;
+}
+
+figure1 img {
+	width: 40px;
+}
+
+
+
+#imagen7 img{
+	transition-property: width;
+	transition-duration: 2s;
+}
+
+#imagen7 img:hover{
+	width: 79.5%;
+}
+    
+   /*caja de van Ahmed Elgammal y Babak Saleh*/
+
+
+
+footer
+{
+    width: 1000px;
+    height: 437px;
+    background: url(../images/A3.png);
+    background-size: contain;
+    margin: 8em;
+}
+
+@media screen
+{
+   
+    footer#babak{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        transition: background 1s;
+    }
+
+
+#babak img
+{
+    width: 5px;
+    height: 437px;
+    transition: width, 1.5s;
+}
+
+#babak img:hover
+{
+    width: 100%;
+}
+    
+    
+    /*ocho paralax*/
+
+#ocho{
+	background:url(../images/7.png) 0 0 no-repeat fixed;
+    background-size:auto;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure7 {
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+figure7 img {
+	width: 40px;
+}
+
+
+
+#imagen77 img{
+	transition-property: width;
+	transition-duration: 2s;
+}
+  
+
+#imagen77 img:hover{
+	width: 80%;
+}
+
+    /*nueve paralax*/
+    
+#nueve{
+	background:url(../images/9.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 421px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*diez paralax*/
+    
+#diez{
+	background:url(../images/10.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 421px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*once paralax*/
+    
+#once{
+	background:url(../images/11.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 711px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*doce paralax*/
+    
+#doce{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 860px;
+	margin: 0 auto;
+	padding: 0;
+}
+    #video1{
+        margin-left: 0px;
+    }
+    
+    /*trece2 paralax*/
+    
+    #trece2{
+     background:url(../images/trece2.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;   
+    }
+    
+    /*trece paralax*/
+    
+#trece{
+	background:url(../images/13.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    /*texto*/
+    
+    #trece h2{
+        background-color:rgba(255,0,255,0.5);
+        top:500px; 
+    }
+    
+    h2{
+    height:200px;
+    width:100%;
+    font-family: 'Oswald', sans-serif;
+    color:#FFF;
+    font-size:3em;
+    position:relative;
+    padding-top:35px;
+}
+h2 span{
+    padding-left:270px;
+}
+
+    
+    /*catorce paralax*/
+    
+#catorce{
+	background:url(../images/14.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+        /*quince paralax*/
+    
+#quince{
+	background:url(../images/15.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xVl paralax*/
+    
+#xVl{
+	background:url(../images/16.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 421px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+    
+    /*xVll paralax*/
+    
+#xVll{
+	background:url(../images/17.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xVllL paralax*/
+    
+#xvlll{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    
+/*xlv paralax*/
+    
+#xlv{
+	background:url(../images/19.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xx paralax*/
+    
+#xx{
+	background:url(../images/20.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure2 {
+    margin-left:00px;
+}
+
+    figure2 img {
+	width: 40px;
+}
+
+
+
+    #imagen2 img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagen2 img:hover{
+	width: 100%;
+}
+    
+    /*xxl paralax*/
+    
+#xxl{
+	background:url(../images/21.png) 0 0 no-repeat fixed;
+    background-size:contain;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xxll paralax*/
+    
+#xxll{
+	background:url(../images/22.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xxlll paralax*/
+    
+#xxlll{
+	background:url(../images/23.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xxlv paralax*/
+    
+#xxlv{
+	background:url(../images/24.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure3 {
+    margin-left:00px;
+    float: left;
+    
+}
+
+    figure3 img {
+	width: 40px;
+}
+
+
+
+    #imagenM img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagenM img:hover{
+	width: 100%;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure4 {
+    margin-top: 0px;
+    margin-left:630px;
+    float: left;
+}
+
+    figure4 img {
+	width: 20px;
+}
+
+
+
+    #imagenM1 img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagenM1 img:hover{
+    margin-top: -32px;
+	width: 100%;
+}
+    
+    /*xxv paralax*/
+    
+#xxv{
+	background:url(../images/23.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xxvl paralax*/
+    
+#xxvl{
+	background:url(../images/26.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure6 {
+    margin-left:00px;
+    float: left;
+    
+}
+
+    figure6 img {
+	width: 40px;
+}
+
+
+
+    #imagenM6 img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagenM6 img:hover{
+	width: 100%;
+}
+    
+    
+    /*xxvll paralax*/
+    
+#xxvll{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    
+    
+    
+    /*quickdraw*/
+    
+#quickdraw{
+	background:url(../images/31.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*watson*/
+    
+    #watson{
+        height: 1265;
+        height: 768;
+    }
+    
+       /*EFECTO CAJA INTERIOR*/
+    
+    figureq {
+    margin-left:3px;
+    float: left;
+    
+}
+
+    figureq img {
+	width: 40px;
+}
+
+
+
+    #imagenq img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagenq img:hover{
+	width: 100%;
+}
+    
+    /*xxvlll paralax*/
+    
+#xxvlll{
+	background:url(../images/28.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figure5 {
+    margin-left:00px;
+    float: left;
+    
+}
+
+    figure5 img {
+	width: 40px;
+}
+
+
+
+    #imagenM5 img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagenM5 img:hover{
+	width: 100%;
+}
+    
+    /*xxlx paralax*/
+    
+#xxlx{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*tic paralax*/
+    
+    #tic{
+	background:url(../images/TIC.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*enlace*/
+    
+    #tic a{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    #tic img{
+        margin-left: 1040px;
+        margin-top: 200px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    /*tic2 paralax*/
+    
+    #tic2{
+	background:url(../images/C2.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*EFECTO CAJA INTERIOR*/
+    
+    figuretic {
+    margin-left:00px;
+    float: left;
+    
+}
+
+    figuretic img {
+	width: 40px;
+}
+
+
+
+    #imagentic img{
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+
+    #imagentic img:hover{
+	width: 100%;
+}
+    
+    /* paralax*/
+    
+    #rl{
+	background:url(../images/30.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xxx paralax*/
+    
+    #xxx{
+	background:url(../images/30.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*xxxl paralax*/
+    
+    #xxxl{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*video*/
+    video{
+        width: 1265px;
+    }    
+    
+    /*xxxll paralax*/
+    
+    #xxxll{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*video*/
+    video{
+        width: 1265px;
+    } 
+    
+    /*xxxlll paralax*/
+    
+    #xxxlll{
+	background:url(../images/1.png) 0 0 no-repeat fixed;
+    background-size:cover;
+	width: 1265px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 0;
+}
+    
+    /*video*/
+    video{
+        width: 1265px;
+    }    
